@@ -18,7 +18,7 @@ export const Login = () => {
         const userExit=userlist.some(u=>u.username===username && u.password===password)
         if(userExit){
             auth.login(username)
-            navigate('/home')
+            navigate('/')
         }else{
             alert("invalid password or user")
         }

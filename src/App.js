@@ -10,6 +10,7 @@ import { Signup } from './components/Signup';
 import { User } from './components/User';
 import './index.css'
 import { Navbar } from './components/Navbar';
+import { Profile } from './Profile';
 function App() {
   return (
     <div className="App">
@@ -24,9 +25,9 @@ function App() {
         </Protected>}>
           </Route>
         <Route path='/login' element={<Login/>}/>
-        <Route path='/admin' element={<Protected><Admin/></Protected>
-          
-      }/>
+        <Route path='/admin' element={<Protected><Admin/></Protected>}/>
+        <Route path='/profile' element={<Protected><Profile/></Protected>}/>
+
         <Route path='/signup' element={<Signup/>}/>
       </Routes>
       </Auth>
