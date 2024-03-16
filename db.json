@@ -67,6 +67,18 @@
       "name": "Samsung S21 Ultra",
       "age": "90000",
       "image": "https://th.bing.com/th/id/OIP.t63UHsLKwL-A2IkyYDw1mgHaHa?w=217&h=217&c=7&r=0&o=5&pid=1.7"
+    },
+    {
+      "id": "4",
+      "name": "Redmi  11 pro",
+      "age": "45000",
+      "image": "https://th.bing.com/th/id/OIP.FcVySMOgVhJQObw-wjfoUAAAAA?w=184&h=183&c=7&r=0&o=5&pid=1.7"
+    },
+    {
+      "id": "5",
+      "name": "IQOO Neo 9",
+      "age": "50000",
+      "image": "https://in-exstatic-vivofs.vivo.com/gdHFRinHEMrj3yPG/1707995273516/451c30b0f972851219b58e6c304334f1.png"
     }
   ]
 }

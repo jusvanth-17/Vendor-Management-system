@@ -68,7 +68,7 @@ export const Admin = () => {
             <button type='submit'>submit</button>
 
         </form >
-        <table style={{marginLeft:'450px',marginTop:'30px'}}>
+        <table style={{marginLeft:'300px',marginTop:'30px'}}>
              <thead>
                    <tr>
                         <th>Product Id</th>
