@@ -7,10 +7,10 @@ import { Protected } from './components/Protected';
 import { Nomatch } from './components/Nomatch';
 import { Home } from './components/Home';
 import { Signup } from './components/Signup';
-import { User } from './components/User';
 import './index.css'
 import { Navbar } from './components/Navbar';
-import { Profile } from './Profile';
+import { Product } from './components/Product';
+import { Profile } from './components/Profile';
 function App() {
   return (
     <div className="App">
@@ -20,10 +20,8 @@ function App() {
         <Route path='/' element={<Home/>}/>
 
         <Route path='/*' element={<Nomatch/>}/>        
-        <Route path='/users' element={<Protected>
-          <User/>
-        </Protected>}>
-          </Route>
+        <Route path='/products' element={<Product/>}/>
+
         <Route path='/login' element={<Login/>}/>
         <Route path='/admin' element={<Protected><Admin/></Protected>}/>
         <Route path='/profile' element={<Protected><Profile/></Protected>}/>

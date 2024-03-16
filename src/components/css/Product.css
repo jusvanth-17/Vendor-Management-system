@@ -1,0 +1,19 @@
+.user-container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.single-user{
+    background-color: lightgray;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+}
+
+.image-user{
+    height: 200px;
+}

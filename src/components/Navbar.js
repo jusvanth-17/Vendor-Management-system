@@ -9,7 +9,6 @@ export const Navbar = () => {
         <h2>V M S</h2>   
         <NavLink to='/'>Home</NavLink>
         <NavLink to='/products'>Products</NavLink>
-        <NavLink to='/users'>UserLogin</NavLink>
         {auth.user==='Admin'&& <NavLink to='/admin'>Admin</NavLink>}
         <NavLink to='/profile'>Profile</NavLink>
         {!auth.user && <NavLink to='/login'>Login</NavLink>}

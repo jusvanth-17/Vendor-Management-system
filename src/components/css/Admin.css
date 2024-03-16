@@ -1,0 +1,21 @@
+thead{
+    background-color: rgb(94, 228, 94);
+    
+}
+th,td{
+    padding: 20px;
+    border-bottom: 1px solid grey;
+
+    
+}
+.i{
+    background-color: white
+    
+}
+html{
+   background-color: aliceblue;
+}
+table{
+    border-collapse: collapse;
+    margin-left: 20px; 
+}

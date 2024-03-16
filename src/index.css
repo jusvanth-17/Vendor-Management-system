@@ -58,7 +58,8 @@ label {
 }
 input[type="text"],
 input[type="password"],
-input[type="email"] {
+input[type="email"] ,
+input[type="number"]{
   width: 20%;
   padding: 8px;
   margin-bottom: 15px;
@@ -79,4 +80,9 @@ button {
 }
 button:hover {
   background-color: #45a049;
+}
+.admin-form
+{
+   justify-content: center;
+   text-align: center;
 }

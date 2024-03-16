@@ -1,6 +1,6 @@
 
 import React from 'react'
-import { useAuth } from './components/Auth'
+import { useAuth } from './Auth'
 export const Profile = () => {
     const auth=useAuth()
     const handlelogout=()=>{

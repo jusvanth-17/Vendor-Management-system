@@ -9,7 +9,8 @@
     {
       "username": "Admin",
       "email": "mk@gm.com",
-      "password": "1234"
+      "password": "1234",
+      "id": "2f8a"
     },
     {
       "id": "c80d",
@@ -34,6 +35,38 @@
       "username": "jusvanth",
       "email": "j@gmail.com",
       "password": "123"
+    },
+    {
+      "id": "ebcd",
+      "username": "kali",
+      "email": "jigis20407@sfpixel.com",
+      "password": "123"
+    },
+    {
+      "id": "af51",
+      "username": "kali",
+      "email": "kali@12",
+      "password": "123"
+    }
+  ],
+  "Students": [
+    {
+      "id": "1",
+      "name": "IPhone 15 pro",
+      "age": "145000",
+      "image": "https://th.bing.com/th/id/OIP.ZexOj0l_uymbhkQ_lMvoBgHaJw?w=128&h=180&c=7&r=0&o=5&pid=1.7"
+    },
+    {
+      "id": "2",
+      "name": "Samsung S24 Ultra",
+      "age": "100000",
+      "image": "https://th.bing.com/th/id/OIP.OCp0XVzhuGUGjaECqi3WfAHaHa?w=168&h=180&c=7&r=0&o=5&pid=1.7"
+    },
+    {
+      "id": "3",
+      "name": "Samsung S21 Ultra",
+      "age": "90000",
+      "image": "https://th.bing.com/th/id/OIP.t63UHsLKwL-A2IkyYDw1mgHaHa?w=217&h=217&c=7&r=0&o=5&pid=1.7"
     }
   ]
 }
