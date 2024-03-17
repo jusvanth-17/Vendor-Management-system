@@ -11,6 +11,7 @@ import './index.css'
 import { Navbar } from './components/Navbar';
 import { Product } from './components/Product';
 import { Profile } from './components/Profile';
+import { Aboutus } from './Aboutus';
 function App() {
   return (
     <div className="App">
@@ -21,11 +22,10 @@ function App() {
 
         <Route path='/*' element={<Nomatch/>}/>        
         <Route path='/products' element={<Product/>}/>
-
+        <Route path='/about' element={<Aboutus/>}/>
         <Route path='/login' element={<Login/>}/>
         <Route path='/admin' element={<Protected><Admin/></Protected>}/>
         <Route path='/profile' element={<Protected><Profile/></Protected>}/>
-
         <Route path='/signup' element={<Signup/>}/>
       </Routes>
       </Auth>

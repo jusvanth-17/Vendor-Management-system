@@ -13,7 +13,6 @@ export const Navbar = () => {
         <NavLink to='/profile'>Profile</NavLink>
         {!auth.user && <NavLink to='/login'>Login</NavLink>}
         {!auth.user && <NavLink to='/signup'>Signup</NavLink>}
-
         </nav>
     </div>
   )

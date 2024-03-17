@@ -1,0 +1,25 @@
+.marquee-container {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .marquee {
+    white-space: nowrap;
+    animation: marquee 20s linear infinite; /* Adjust duration and timing function as needed */
+  }
+  
+  .marquee span {
+    display: inline-block;
+    padding-right: 20px; /* Adjust spacing between messages as needed */
+  }
+  
+  .mobile-logo {
+    width: 20px; /* Adjust the size of the mobile phone logo as needed */
+    height: 20px;
+    margin-right: 5px; /* Adjust spacing between logo and text as needed */
+  }
+  
+  @keyframes marquee {
+    0%   { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+  }

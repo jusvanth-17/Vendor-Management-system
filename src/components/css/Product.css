@@ -6,12 +6,13 @@
 }
 
 .single-user{
-    background-color: lightgray;
+    background-color: white;
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
     align-items: center;
     margin: 1rem;
+    border-radius: 7px;
 }
 
 .image-user{
